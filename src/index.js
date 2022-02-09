@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Router from './routes/Router';
+import MobileRouter from './routes/MobileRouter';
+import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import {isMobile} from 'react-device-detect';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+        {isMobile ? 
+          <MobileRouter />            
+        :
+          <Router /> 
+      }   
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
