@@ -11,7 +11,12 @@ import {
     AccessName,
     AcceptPaymentWrapper,
     AcceptPayment,
-    PaymentForms
+    PaymentForms,
+    InfoContainer,
+    InfoWrapper,
+    InfoDivision,
+    InfoLink,
+    InfoSeparator
 } from './Footer.styled';
 
 
@@ -80,6 +85,32 @@ const Footer = () => {
                     </AcceptPayment>
                 </AcceptPaymentWrapper>
             </AccessContainer>
+
+            <InfoContainer>
+                <InfoWrapper>
+                    <InfoDivision>
+                        <InfoLink to={'/'}>Condições de Uso</InfoLink>
+                        <InfoSeparator>|</InfoSeparator>
+                        <InfoLink to={'/'}>Notificações de Privacidade</InfoLink>
+                        <InfoSeparator>|</InfoSeparator>
+                        <InfoLink to={'/'}>Cookies</InfoLink>
+                        <InfoSeparator>|</InfoSeparator>
+                        <InfoLink to={'/'}>Anúncios Baseados em Interesses</InfoLink>
+                    </InfoDivision>
+
+                    <InfoDivision>
+                        Nome da Empresa Ltda. | CNPJ 00.000.000/0000-00 
+                    </InfoDivision>
+
+                    <InfoDivision>
+                        Endereço - Rio de Janeiro - CEP 00000-000
+                    </InfoDivision>
+
+                    <InfoDivision>
+                        © 2021-2022 Nome da Empresa.
+                    </InfoDivision>
+                </InfoWrapper>
+            </InfoContainer>
         </Container>
     )
 }

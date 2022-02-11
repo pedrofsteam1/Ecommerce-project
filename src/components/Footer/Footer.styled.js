@@ -104,3 +104,46 @@ export const PaymentForms = styled(Link)`
         text-decoration: underline;
     }
 `;
+
+
+export const InfoContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(0,5,31, 1);
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+`;  
+
+export const InfoWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+`;
+
+export const InfoDivision = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    font-size: calc(6px + 1vmin);
+    color: white;
+`;
+
+
+export const InfoLink = styled(Link)`
+    display: flex;
+    font-size: calc(6px + 1vmin);
+    color: white;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+`;
+
+export const InfoSeparator = styled.div`
+    display: flex;
+    font-size: calc(6px + 1vmin);
+    color: white;
+    padding: 0px 10px 0px 10px;
+`;
