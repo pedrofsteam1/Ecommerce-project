@@ -11,10 +11,19 @@ export const Container = styled.div`
     background: transparent;
 `;
 
+export const MainWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+    width: 100%;
+    justify-content: center;
+`;
+
 export const Main = styled.div`
     display: flex;
     flex-direction: column;
-    min-height: 200px;
     width: 100%;
-    background: red;
+    padding: 0px 7% 0px 7%;
+    margin: auto;
+    min-height: 200px;
 `;

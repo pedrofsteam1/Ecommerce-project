@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { Container, Main } from '../Page.styled';
+import { Container, Main, MainWrapper } from '../Page.styled';
 
 import { 
     Header, 
-    Footer 
+    Footer, 
+    InitialBanner
 } from '../../components';
 
 
@@ -17,9 +18,11 @@ const Home = () => {
         <Container>
             <Header></Header>
 
-            <Main>
-
-            </Main>
+            <MainWrapper>
+                <Main>
+                    <InitialBanner></InitialBanner>
+                </Main>
+            </MainWrapper>
 
             <Footer></Footer>
         </Container>

@@ -1,0 +1,10 @@
+{
+    "banners": {
+        "initial": [
+            "/banners/initial/renew_house.jpg",
+            "/banners/initial/week_sport.jpg",
+            "/banners/initial/class_return.jpg",
+            "/banners/initial/beer_guide.jpg"
+        ]
+    }
+}
