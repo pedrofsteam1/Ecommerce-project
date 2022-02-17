@@ -3,8 +3,9 @@ import styled from 'styled-components';
 
 export const BannerContainer = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     position: relative;
+    min-width: 100%;
     width: 100%;
     height: 600px;
 `;
@@ -13,24 +14,30 @@ export const BannerImageWrapper = styled.div`
     display: flex;
     flex-direction: row;
     width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     height: 100%;
-    overflow-x: hidden;
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;     
-    transition: all 1s;
+    overflow: hidden;
+`;
+
+export const BannerImageList = styled.div`
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap; 
+    transition: transform 0.5s;
+    -webkit-transition: transform  0.5s;
+    -moz-transition: transform 0.5s;
+    transform: ${props => props.move};
 `;
 
 export const BannerImageContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    min-width: 100%;
+    display: inline-flex;
     width: 100%;
+    min-width: 100%;
     height: 100%;
 `;
 
 export const BannerImage = styled.img`
-    display: flex;
-    margin: auto;
     width: 100%;
     height: 100%;
 `;

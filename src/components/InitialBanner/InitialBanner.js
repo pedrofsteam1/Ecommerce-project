@@ -13,25 +13,30 @@ import {
     BannerImageWrapper,
     BannerImageContainer, 
     BannerWrapper,
-
+    BannerImageList,
 } from './InitialBanner.styled';
 
 const InitialBanner = () => {
 
     const [bannerNumber, setBannerNumber] = useState(0);
+    const [toMove, setToMove] = useState('translateX(0%)');
+
 
     const BannerChange = (n) => {
-        let pos = bannerNumber + n;
-        
-        if (pos < 0) {
-            setBannerNumber(BannersJson.banners.initial.length - 1);
+        let index = bannerNumber + n;
+
+        if (index >= BannersJson.banners.initial.length) {
+            index = 0;
         }
-        else if (pos >= BannersJson.banners.initial.length) {
-            setBannerNumber(0);
+        else if (index < 0) {
+            index = BannersJson.banners.initial.length - 1;
         }
-        else {
-            setBannerNumber(pos);
-        }
+
+        const pos = `translateX(-${index * 100}%)`;
+
+        setToMove(pos);
+
+        setBannerNumber(index);
     }
 
     useEffect(() => {
@@ -39,15 +44,17 @@ const InitialBanner = () => {
     },[]);
 
     return(
-       <BannerContainer>
+       <BannerContainer id={'bannerScroll'}>
             <BannerImageWrapper>
-                {BannersJson.banners.initial.map((item, key) => (
-                    <BannerImageContainer key={key}>
-                        <BannerImage src={item}>
-                
-                        </BannerImage>
-                    </BannerImageContainer>
-                ))} 
+                <BannerImageList move={toMove}>
+                    {BannersJson.banners.initial.map((item, key) => (
+                        <BannerImageContainer key={key}>
+                            <BannerImage src={item}>
+                    
+                            </BannerImage>
+                        </BannerImageContainer>
+                    ))}
+                </BannerImageList>
             </BannerImageWrapper>
            <BannerWrapper>
                 <ArrowsWrapper>
