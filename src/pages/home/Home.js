@@ -5,10 +5,9 @@ import { Container, Main, MainWrapper } from '../Page.styled';
 import { 
     Header, 
     Footer, 
-    InitialBanner
+    InitialBanner,
+    CardList
 } from '../../components';
-
-
 
 
 const Home = () => {
@@ -21,6 +20,7 @@ const Home = () => {
             <MainWrapper>
                 <Main>
                     <InitialBanner></InitialBanner>
+                    <CardList></CardList>
                 </Main>
             </MainWrapper>
 

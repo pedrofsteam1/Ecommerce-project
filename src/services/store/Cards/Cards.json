@@ -1,0 +1,70 @@
+[
+    {
+    "card": {
+        "title": "Navegue por loja",
+        "ads": [
+            {
+                "image": "/Cards/Store/Tool.jpg",
+                "text": "Ferramentas",
+                "link": "/" 
+            },
+            {
+                "image": "/Cards/Store/Echo.jpg",
+                "text": "Dispositivos Echo",
+                "link": "/"
+            },
+            {
+                "image": "/Cards/Store/Games.jpg",
+                "text": "Games",
+                "link": "/"
+            },
+            {
+                "image": "/Cards/Store/Jewelry.jpg",
+                "text": "Jóias",
+                "link": "/"
+            }
+        ],
+        "end": "Veja mais"
+        }
+    },
+
+    {
+    "card": {
+        "title": "Confira Dispositivos Amazon",
+        "ads": [
+            
+        ],
+        "end": "Veja todos"
+        }
+    },
+
+    {
+    "card": {
+        "title": "Ofertas do Dia",
+        "ads": [
+            
+        ],
+        "end": "Veja mais"
+        }
+    },
+
+    {
+    "card": {
+        "title": "Curta 3 meses GRÁTIS de músicas",
+        "ads": [
+            
+        ],
+        "end": "Veja todos"
+        }
+    },
+
+    {
+    "card": {
+        "title": "Renove sua casa: até 40% off",
+        "ads": [
+            
+        ],
+        "end": "Veja mais"
+        }
+    } 
+]

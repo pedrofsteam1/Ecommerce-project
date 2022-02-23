@@ -1,0 +1,14 @@
+{
+    "card": {
+        "title": "Ofertas do dia",
+        "ads": [
+        {
+            "image": "/Cards/Day/Day1.jpg",
+            "price": "79,90",
+            "text": "Kit 2 Sapatênis Masculinos Polo State Way",
+            "link": "/"              
+        }
+        ],
+        "end": "Veja todas as ofertas"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "card": {
+        "title": "Frete GRÁTIS no seu primeiro pedido",
+        "ads": [
+        {
+            "image": "/Cards/Frete/Frete.jpg",
+            "price": "",
+            "text": "",
+            "link": "/"              
+        }
+        ],
+        "end": "Saiba mais"
+    }
+}

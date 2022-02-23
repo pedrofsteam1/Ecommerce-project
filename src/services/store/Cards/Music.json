@@ -1,0 +1,14 @@
+{
+    "card": {
+        "title": "Curta 3 meses GRÁTIS de músicas",
+        "ads": [
+        {
+            "image": "/Cards/Music/Music.jpg",
+            "price": "",
+            "text": "",
+            "link": "/"              
+        }
+        ],
+        "end": "Experimente Agora"
+    }
+}

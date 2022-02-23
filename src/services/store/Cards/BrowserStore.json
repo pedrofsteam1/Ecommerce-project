@@ -1,0 +1,56 @@
+{
+"card": {
+    "title": "Navegue por loja",
+    "ads": [
+        {
+            "image": "/Cards/Store/Tool.jpg",
+            "price": "",
+            "text": "Ferramentas",
+            "link": "/" 
+        },
+        {
+            "image": "/Cards/Store/Echo.jpg",
+            "price": "",
+            "text": "Dispositivos Echo",
+            "link": "/"
+        },
+        {
+            "image": "/Cards/Store/Games.jpg",
+            "price": "",
+            "text": "Games",
+            "link": "/"
+        },
+        {
+            "image": "/Cards/Store/Jewelry.jpg",
+            "price": "",
+            "text": "Jóias",
+            "link": "/"
+        },
+        {
+            "image": "/Cards/Store/Phone.jpg",
+            "price": "",
+            "text": "Celulares",
+            "link": "/"
+        },
+        {
+            "image": "/Cards/Store/Computer.jpg",
+            "price": "",
+            "text": "Computadores",
+            "link": "/"
+        },
+        {
+            "image": "/Cards/Store/Kitchen.jpg",
+            "price": "",
+            "text": "Cozinha",
+            "link": "/"
+        },
+        {
+            "image": "/Cards/Store/Personal.jpg",
+            "price": "",
+            "text": "Cuidados Pessoais",
+            "link": "/"
+        }
+    ],
+    "end": "Veja mais"
+    }
+}

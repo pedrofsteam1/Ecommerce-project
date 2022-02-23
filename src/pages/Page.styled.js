@@ -8,22 +8,24 @@ export const Container = styled.div`
     width: 100%;
     max-width: 100vw;
     min-height: 100vh;
-    background: transparent;
+    background-color: gainsboro;
 `;
 
 export const MainWrapper = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 200px;
     width: 100%;
     justify-content: center;
+    background-color: gainsboro;
 `;
 
 export const Main = styled.div`
     display: flex;
     flex-direction: column;
+    position: relative;
     width: 100%;
-    padding: 0px 7.5% 0px 7.5%;
+    max-width: 1460px;
     margin: auto;
     min-height: 200px;
 `;

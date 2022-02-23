@@ -7,7 +7,7 @@ export const BannerContainer = styled.div`
     position: relative;
     min-width: 100%;
     width: 100%;
-    height: 600px;
+    height: 700px;
 `;
 
 export const BannerImageWrapper = styled.div`
@@ -49,7 +49,8 @@ export const BannerWrapper = styled.div`
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, white 10%, transparent 70%);
+    z-index: 99;
+    background: linear-gradient(to top, gainsboro 10%, transparent 70%);
 `;
 
 
@@ -57,7 +58,7 @@ export const ArrowsWrapper = styled.div`
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 250px;
+    height: 300px;
     background-color: transparent;
 `;
 

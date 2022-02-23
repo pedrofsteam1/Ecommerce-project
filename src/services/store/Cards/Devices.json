@@ -1,0 +1,32 @@
+{
+    "card": {
+        "title": "Confira Dispositivos Amazon",
+        "ads": [
+            {
+                "image": "/Cards/Devices/Dot.jpg",
+                "price": "",
+                "text": "Dot 3 Geração",
+                "link": "/"              
+            },
+            {
+                "image": "/Cards/Devices/Kindle.jpg",
+                "price": "",
+                "text": "Kindle 10 Geração",
+                "link": "/"              
+            },
+            {
+                "image": "/Cards/Devices/Echo.jpg",
+                "price": "",
+                "text": "Echo",
+                "link": "/"              
+            },
+            {
+                "image": "/Cards/Devices/FireTV.jpg",
+                "price": "",
+                "text": "Fire TV Stick Lite",
+                "link": "/"              
+            }
+        ],
+        "end": "Veja todos"
+    }
+}
