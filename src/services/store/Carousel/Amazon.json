@@ -1,0 +1,60 @@
+{
+    "carousel": {
+        "title": "Descubra a Amazon",
+        "ads": [
+        {
+            "image": "/Carousel/Amazon/Welcome.jpg",
+            "link": "/"              
+        },
+        {
+            "image": "/Carousel/Amazon/Track.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/Devolution.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/Refund.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/Safe.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/Free.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/Warranty.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/Pay.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/App.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/Day.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/Installment.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/Outlet.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Amazon/Sell.jpg",
+            "link": "/"
+        }       
+        ],
+        "end": "Veja mais"
+    }
+}

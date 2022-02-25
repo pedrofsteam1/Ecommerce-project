@@ -1,0 +1,60 @@
+{
+    "carousel": {
+        "title": "Cuidados Pessoais e da Casa até R$50",
+        "ads": [
+        {
+            "image": "/Carousel/Pessoais/img1.jpg",
+            "link": "/"              
+        },
+        {
+            "image": "/Carousel/Pessoais/img2.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img3.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img4.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img5.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img6.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img7.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img8.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img9.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img10.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img11.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img12.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pessoais/img13.jpg",
+            "link": "/"
+        }       
+        ],
+        "end": "Confira"
+    }
+}

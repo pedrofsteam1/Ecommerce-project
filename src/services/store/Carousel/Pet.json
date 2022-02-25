@@ -1,0 +1,68 @@
+{
+    "carousel": {
+        "title": "Produtos para pets até R$50",
+        "ads": [
+        {
+            "image": "/Carousel/Pet/1.jpg",
+            "link": "/"              
+        },
+        {
+            "image": "/Carousel/Pet/2.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/3.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/4.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/5.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/6.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/7.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/8.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/9.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/10.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/11.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/12.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/13.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/14.jpg",
+            "link": "/"
+        },
+        {
+            "image": "/Carousel/Pet/15.jpg",
+            "link": "/"
+        }       
+        ],
+        "end": "Veja mais"
+    }
+}
