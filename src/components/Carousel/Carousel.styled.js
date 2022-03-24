@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 
 export const Container = styled.div`
@@ -9,6 +10,7 @@ export const Container = styled.div`
     padding: 20px 30px;
     margin-top: 10px;
     background-color: transparent;
+    overflow-y: hidden;
 `;
 
 export const Wrapper = styled.div`
@@ -34,7 +36,7 @@ export const Text = styled.span`
     font-weight: 700;
 `;
 
-export const Link = styled.span`
+export const LinkTitle = styled.span`
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -54,6 +56,7 @@ export const Link = styled.span`
 export const AdsContainer = styled.div`
     display: flex;
     flex-direction: row;
+    position: relative;
     height: 100%;
     width: 100%;
     overflow-y: hidden;
@@ -91,7 +94,7 @@ export const AdsWrapper = styled.div`
     max-width: 100%;
 `;
 
-export const Ads = styled.div`
+export const Ads = styled(Link)`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,4 +112,16 @@ export const AdsTitle = styled.div`
 export const AdsImage = styled.img`
     display: flex;
     cursor: pointer;
+`;
+
+
+
+export const Arrows = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 45px;
+    height: 100px;
+    background-color: red;
+    z-index: 9999999999;
+    transform: ${props => props.pos};
 `;

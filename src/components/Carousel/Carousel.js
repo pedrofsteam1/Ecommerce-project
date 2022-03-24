@@ -5,12 +5,13 @@ import {
     Wrapper,
     Title,
     Text,
-    Link,
+    LinkTitle,
     AdsContainer,
     Ads,
     AdsWrapper,
     AdsTitle,
-    AdsImage
+    AdsImage,
+    Arrows
 } from './Carousel.styled';
 
 const Carousel = ({ info }) => {
@@ -21,18 +22,19 @@ const Carousel = ({ info }) => {
             <Wrapper>
                 <Title>
                     <Text>{info.carousel.title}</Text>
-                    <Link>{info.carousel.end}</Link>
+                    <LinkTitle>{info.carousel.end}</LinkTitle>
                 </Title>
 
                 <AdsContainer>
                     <AdsWrapper>
                         {info.carousel.ads.map((item, key) => (
-                            <Ads key={key}>
+                            <Ads key={key} to="/product" state={{prod: item}}>
                                 <AdsImage src={item.image}></AdsImage>
                             </Ads>
                         ))}
+                        
                     </AdsWrapper>
-                </AdsContainer>
+                </AdsContainer>   
             </Wrapper>
         </Container>
     )
