@@ -65,5 +65,84 @@ export const AddCartButton = styled.button`
     cursor: pointer;
 `;
 
+export const Transaction = styled.div`
+    display: flex;
+    width: 100%;
+    font-size: calc(8px + 1vmin);
+    padding-bottom: 20px;
+    color: ${props => props.color || "rgb(60,179,113)"};
+`;
+
+export const Send = styled.div`
+    display: flex;
+    width: 100%;
+    padding-bottom: 5px;
+    font-size: calc(6px + 1vmin);
+`;
+
+export const Sold = styled.div`
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    font-size: calc(6px + 1vmin);
+`;
 
 
+export const WarrantyWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+`;
+
+export const WarrantyTitle = styled.span`
+    display: flex;
+    width: 100%;
+    font-size: calc(6px + 1vmin);
+    font-weight: 700;
+`;
+
+export const WarrantyOptions = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+`;
+
+export const WarrantyCheck = styled.input`
+    display: flex;
+`;
+
+export const WarrantyLabel = styled.label`
+    display: flex;
+    font-size: calc(6px + 1vmin);
+`;
+
+export const GiftWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 20px;
+`;
+
+export const GiftCheck = styled.input`
+    display: flex;
+`;
+
+export const GiftLabel = styled.label`
+    display: flex;
+    font-size: calc(6px + 1vmin);
+`;
+
+export const ListAdd = styled.button`
+    display: flex;
+    width: 100%;
+    height: 35px;
+    font-size: calc(6px + 1vmin);
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+`;
