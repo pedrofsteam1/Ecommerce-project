@@ -100,6 +100,7 @@ export const WarrantyTitle = styled.span`
     width: 100%;
     font-size: calc(6px + 1vmin);
     font-weight: 700;
+    padding-bottom: 3px;
 `;
 
 export const WarrantyOptions = styled.div`

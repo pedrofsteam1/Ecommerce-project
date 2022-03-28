@@ -8,7 +8,7 @@ export const Container = styled.div`
     width: 100%;
     max-width: 100vw;
     min-height: 100vh;
-    background-color: gainsboro;
+    background-color: ${props => props.color || 'gainsboro'};
 `;
 
 export const MainWrapper = styled.div`
@@ -17,7 +17,7 @@ export const MainWrapper = styled.div`
     min-height: 200px;
     width: 100%;
     justify-content: center;
-    background-color: gainsboro;
+    background-color: ${props => props.color || 'gainsboro'};
 `;
 
 export const Main = styled.div`

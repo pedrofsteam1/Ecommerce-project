@@ -21,11 +21,11 @@ const ProductPage = () => {
 
 
     return (
-        <Container>
+        <Container color='white'>
             <Header></Header>
 
             <Main>
-                <MainWrapper>
+                <MainWrapper color='white'>
                     <ProductContainer>
                         <ProductWrapper>
                             <ProductImage prod={pp.product[0]}></ProductImage>
