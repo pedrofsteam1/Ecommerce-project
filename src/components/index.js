@@ -4,3 +4,6 @@ export { default as InitialBanner } from './InitialBanner/InitialBanner';
 export { default as CardList } from './Card/CardList';
 export { default as Card } from './Card/Card';
 export { default as Carousel } from './Carousel/Carousel';
+export { default as Product } from './Product/Product';
+export { default as ProductImage} from './ProductImage/ProductImage';
+export { default as AddCart } from './AddCart/AddCart';

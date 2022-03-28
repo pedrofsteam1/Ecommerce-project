@@ -1,0 +1,49 @@
+{
+    "product": [
+        {
+            "title": "PHILCO Fast Smart TV 32 PTV32G70RCH Roku Tv Led",
+            "brand": "Marca: PHILCO",
+            "stars": 4.5,
+            "reviews": 14,
+            "category": "Tv",
+            "price": "R$ 1.199,00",
+            "inventory": true,
+            "about": "Menu nos idiomas Português e Inglês Busca automática de canais Recepção em ATV, DTV e CATV Conversor digital integrado Equalizadores de som e imagem predefinidos Ajustes de temperatura de cor Nivelador automático de volume Recursos: MUTE | SLEEP | APP STORE | CLOSED CAPTION | GUIDE¹ | INFO¹ | RELÓGIO | ZOOM | HDMI ARC² | T-LINK² (HDMI-CEC).",
+            "chars": {
+                "name": [
+                    "Tamanho da tela",
+                    "Tecnologia de conectividade",
+                    "Marca",
+                    "Resolução",
+                    "Tecnologia do visor",
+                    "Nome do modelo",
+                    "Taxa de atualização",
+                    "Características especiais",
+                    "Ano",
+                    "Cor"
+                ],
+                "value": [
+                    "32 Polegadas",
+                    "Wi-fi, USB, Ethernet, HDMI",
+                    "PHILCO",
+                    "HD",
+                    "LED",
+                    "Fast Smart Tv",
+                    "60 Hz",
+                    "Plana",
+                    "2021",
+                    "Preto"
+                ]
+            },
+            "images": [
+                "/Tv/tv1.jpg",
+                "/Tv/tv2.jpg",
+                "/Tv/tv3.jpg",
+                "/Tv/tv4.jpg",
+                "/Tv/tv5.jpg",
+                "/Tv/tv6.jpg",
+                "/Tv/tv7.jpg"
+            ]
+        }
+    ]
+}
