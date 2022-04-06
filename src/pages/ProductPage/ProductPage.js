@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import { Container, Main, MainWrapper } from '../Page.styled';
-import { ProductContainer, ProductWrapper } from './Product.styled';
+import { ProductContainer, ProductInfoWrapper, ProductWrapper } from './Product.styled';
 
 import pp from '../../services/store/Product/Tvs.json';
 
@@ -11,7 +11,8 @@ import {
     Footer,
     Product,
     ProductImage,
-    AddCart
+    AddCart,
+    ProductInfo
 } from '../../components';
 
 
@@ -32,6 +33,10 @@ const ProductPage = () => {
                             <Product prod={pp.product[0]}></Product>
                             <AddCart prod={pp.product[0]}></AddCart>
                         </ProductWrapper>
+
+                        <ProductInfoWrapper>
+                            <ProductInfo prod={pp.product[0]}></ProductInfo>
+                        </ProductInfoWrapper>
                     </ProductContainer>
                 </MainWrapper>
             </Main>

@@ -13,6 +13,16 @@ export const ProductWrapper = styled.div`
     flex-direction: row;
     width: 100%;
     height: 800px;
+    max-height: 800px;
     border-top: 1px solid rgba(169,169,169, 0.5);
     padding: 30px 0px 10px 0px;
+`;
+
+
+export const ProductInfoWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px 0px 10px 0px;
+    background-color: transparent;
 `;

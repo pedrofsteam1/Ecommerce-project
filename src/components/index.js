@@ -7,3 +7,4 @@ export { default as Carousel } from './Carousel/Carousel';
 export { default as Product } from './Product/Product';
 export { default as ProductImage} from './ProductImage/ProductImage';
 export { default as AddCart } from './AddCart/AddCart';
+export { default as ProductInfo } from './ProductInfo/ProductInfo';
