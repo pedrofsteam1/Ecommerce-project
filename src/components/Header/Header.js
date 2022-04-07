@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom'
 
 
 import HideMenu from '../HideMenu/HideMenu';
@@ -27,6 +28,8 @@ import {
 } from './Header.styled';
 
 const Header = () => {
+
+    const navigate = useNavigate();
 
     const [isSearching, setIsSearching] = useState();
     const [isLogged, setIsLogged] = useState(false);
@@ -79,7 +82,7 @@ const Header = () => {
                 <NavRight>
                     <NavWrapper>
                         {isLogged ? <div>Logged</div> : 
-                        <div>
+                        <div onClick={() => navigate('/login', { replace: true })}>
                             <Label size={'calc(6px + 1vmin)'}>Olá,</Label>
                             <Label size={'calc(6px + 1vmin)'} weight={700}>Faça seu Login</Label>
                         </div>}

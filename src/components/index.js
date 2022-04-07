@@ -8,3 +8,5 @@ export { default as Product } from './Product/Product';
 export { default as ProductImage} from './ProductImage/ProductImage';
 export { default as AddCart } from './AddCart/AddCart';
 export { default as ProductInfo } from './ProductInfo/ProductInfo';
+export { default as Logo } from './Logo/Logo';
+export { default as Form } from './Form/Form';
