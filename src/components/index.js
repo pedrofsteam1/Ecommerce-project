@@ -9,4 +9,6 @@ export { default as ProductImage} from './ProductImage/ProductImage';
 export { default as AddCart } from './AddCart/AddCart';
 export { default as ProductInfo } from './ProductInfo/ProductInfo';
 export { default as Logo } from './Logo/Logo';
-export { default as Form } from './Form/Form';
+export { default as FormLog } from './Form/FormLog/FormLog';
+export { default as FormReg } from './Form/FormReg/FormReg';
+export { default as FormFooter } from './FormFooter/FormFooter';

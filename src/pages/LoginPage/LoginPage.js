@@ -1,14 +1,24 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { Container, MainWrapper } from '../Page.styled';
-import { LoginContainer, LoginWrapper } from './LoginPage.styled';
+import { 
+    LoginContainer, 
+    LoginWrapper,
+    CreateAccWrapper,
+    CreateAccTitle,
+    CreateAccButton,
+} from './LoginPage.styled';
+
 import {
     Logo,
-    Form
+    FormLog,
+    FormFooter
 } from '../../components/index.js';
 
 const LoginPage = () => {
 
+    const navigate = useNavigate();
 
     return (
         <Container color={'white'}>
@@ -16,8 +26,16 @@ const LoginPage = () => {
                 <LoginWrapper>
                     <Logo></Logo>
 
-                    <Form></Form>
+                    <FormLog></FormLog>
+
+                    <CreateAccWrapper>
+                        <CreateAccTitle>Novo na Amazon?</CreateAccTitle>
+                        <CreateAccButton onClick={() => navigate('/register', {replace: true})}>Criar sua conta da Amazon</CreateAccButton>
+                    </CreateAccWrapper>
+
                 </LoginWrapper>
+
+                <FormFooter></FormFooter>
             </LoginContainer>
         </Container>
     )
